@@ -1,0 +1,58 @@
+.result {
+    height: 120px;
+    width: 438px;
+    padding: 0 10px;
+    border: 1px solid rgba(0,0,0,.2);
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    float: left;
+}
+.button {
+    width: 120px;
+    height: 120px;
+    border: none;
+    background-color: rgb(189, 189, 189);
+    font-size: 45px;
+    outline: none;
+}
+.button:nth-child(10) {
+    width: 240px;
+    border-bottom-left-radius: 10px;
+}
+.button:hover {
+    background-color: rgb(159, 159, 159);
+}
+.button:active {
+    background-color: rgb(129, 129, 129);
+}
+.operations-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.operation-button {
+    width: 100px;
+    height: 80px;
+    border: none;
+    background-color: rgb(255,69,0);
+    font-size: 35px;
+    outline: none;
+}
+.operation-button:hover {
+    background-color: rgb(225, 60, 0);
+}
+.operation-button:active {
+    background-color: rgb(195, 52, 0);
+}
+.operation-button:last-child {
+    border-bottom-right-radius: 10px;
+}
